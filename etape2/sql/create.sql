@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS tp3;
+USE tp3;
+CREATE TABLE IF NOT EXISTS notes (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  txt VARCHAR(255)
+);
+INSERT INTO notes (txt) VALUES ('Init depuis create.sql');
